@@ -19,4 +19,17 @@ git init
 git add .
 git commit -m 'Mensagem'
 git remote add origin URL_DO_GIT
+git add . 
+git commit -m 'upload repository'
+git push origin main
+- Caso ocorra um erro, tente levar para o pc os arquivos que existem no repositório online:
+    - git pull origin main –rebase
+    - Agora, faça novamente o push:
+    - git push origin main
+```
+
+Iniciar o projeto, depois do git:
+```
+Com o Git OK:
+- python manage.py startapp contact --> cria o aplicativo de contact
 ```
